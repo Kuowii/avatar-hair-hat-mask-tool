@@ -1,0 +1,151 @@
+body {
+  background-color: #10141b;
+  color: #ffffff;
+}
+
+.button {
+  width: 177px;
+  height: 50px;
+  background-color: #d2aa6b;
+  color: #10141b;
+}
+
+.toggleButton {
+  width: 177px;
+  height: 50px;
+  background-color: #464184;
+  color: #FFFFFF;
+}
+
+.enableButton {
+  font-size: 12px;
+  width: 120px;
+  height: 50px;
+  background-color: #464184;
+  color: #FFFFFF;
+}
+
+.uploadButton {
+  width: 150px;
+  height: 50px;
+  background-color: #9990ea;
+  color: #FFFFFF;
+}
+
+.spacer {
+  width: 177px;
+  height: 50px;
+}
+
+.container {
+  background-color: #10141b;
+}
+
+.contentContainer {
+  width: 100%;
+}
+
+.leftPane {
+  float: left;
+  max-width: 600px;
+}
+
+.rightPane {
+  justify-content: center;
+  padding: 40px;
+}
+
+.previewContainerHeader {
+  text-align: center;
+  font-size: 25px;
+  height: 100%;
+  padding: 15px;
+}
+
+.previewContainer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.previewItem {
+  padding: 8px;
+  background-color: #FFFFFF30;
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 80px;
+  color: #9990ea;
+  font-size: 13px;
+}
+
+.previewImage {
+  border: 1px solid #FFFFFF;
+}
+
+.activePreviewImage {
+  border: 1px solid #9990ea;
+}
+
+.previewText {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.flexBreak {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.uploadContainerHeader {
+  text-align: center;
+  height: 100%;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.uploadContainer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.uploadItem {
+  padding: 8px;
+  background-color: #FFFFFF30;
+  color: #9990ea
+}
+
+.toggleContainerHeader {
+  font-size: 25px;
+  text-align: center;
+  height: 100%;
+  padding: 15px;
+}
+
+.toggleContainer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+}
+
+.toggleItem {
+  padding: 8px;
+  background-color: #FFFFFF30;
+  color: #9990ea
+}
+
+.helpContainer {
+  margin-top: 70px;
+}
